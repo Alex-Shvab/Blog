@@ -1,55 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b1daf46-9847-4662-a4ba-d50843643376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/My_blog_site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_blog_site/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_blog_site/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_blog_site/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_blog_site/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_blog_site/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/14b18bd027afa1b40dfbf12b79a81135.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/6bb6e497d4a14a3ccbc704281b994e7d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/imgonline-com-ua-BigPicture-qgy01sEY9DoSEE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/blog/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/post_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/post_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/user_posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+    <list default="true" id="3b1daf46-9847-4662-a4ba-d50843643376" name="Default Changelist" comment="blog commit">
+      <change afterPath="$PROJECT_DIR$/media/default_post.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.7.dist-info/AUTHORS" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.7.dist-info/INSTALLER" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.7.dist-info/LICENSE" afterDir="false" />
@@ -4603,6 +4556,14 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog_site/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/imgonline-com-ua-BigPicture-qgy01sEY9DoSEE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -4616,9 +4577,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -4643,8 +4604,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Developmen\Python\My_blog_site" />
       <recent name="D:\Developmen\Python\My_blog_site\media" />
+      <recent name="D:\Developmen\Python\My_blog_site" />
       <recent name="D:\Developmen\Python\My_blog_site\blog" />
     </key>
   </component>
@@ -4718,12 +4679,24 @@
       <workItem from="1592304867607" duration="5162000" />
       <workItem from="1592327327546" duration="6173000" />
       <workItem from="1592389049967" duration="4264000" />
-      <workItem from="1592413488623" duration="1446000" />
+      <workItem from="1592413488623" duration="7081000" />
     </task>
+    <task id="LOCAL-00001" summary="blog commit">
+      <created>1592415259191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592415259191</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="blog commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="987" y="188" key="#Notifications" timestamp="1592389126436">
@@ -4734,30 +4707,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1036" y="299" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592389473080" />
-    <state x="1153" y="34" width="660" height="987" key="CommitChangelistDialog2" timestamp="1592414990857">
+    <state x="981" y="53" width="805" height="987" key="CommitChangelistDialog2" timestamp="1592415227010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1153" y="34" width="660" height="987" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592414990857" />
-    <state width="989" height="257" key="GridCell.Tab.0.bottom" timestamp="1592393372803">
+    <state x="981" y="53" width="805" height="987" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592415227010" />
+    <state width="989" height="257" key="GridCell.Tab.0.bottom" timestamp="1592420506107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="989" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592393372803" />
-    <state width="989" height="257" key="GridCell.Tab.0.center" timestamp="1592393372803">
+    <state width="989" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592420506107" />
+    <state width="989" height="257" key="GridCell.Tab.0.center" timestamp="1592420506106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="989" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592393372803" />
-    <state width="989" height="257" key="GridCell.Tab.0.left" timestamp="1592393372803">
+    <state width="989" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592420506106" />
+    <state width="989" height="257" key="GridCell.Tab.0.left" timestamp="1592420506106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="989" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592393372803" />
-    <state width="989" height="257" key="GridCell.Tab.0.right" timestamp="1592393372803">
+    <state width="989" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592420506106" />
+    <state width="989" height="257" key="GridCell.Tab.0.right" timestamp="1592420506106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="989" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592393372803" />
+    <state width="989" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592420506106" />
     <state x="830" y="168" key="SettingsEditor" timestamp="1592295572392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="830" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592295572392" />
+    <state x="1052" y="259" key="Vcs.Push.Dialog.v2" timestamp="1592415398821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1052" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592415398821" />
     <state x="984" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1592413731608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
