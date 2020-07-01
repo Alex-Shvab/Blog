@@ -1,8 +1,21 @@
-from rest_framework import serializers
+from rest_framework.serializers import ModelSerializer
 from blog.models import Post
 
-class PostSerializer(serializers.Serializer):
-    title = serializers.CharField(max_length=100)
-    content = serializers.TextField()
-    post_image = serializers.ImageField()
-    author_id = serializers.IntegerField()
+class PostCreateUpdateSerializer(ModelSerializer):
+    class Meta:
+        model = Post
+        fields = [
+            'title',
+            'content',
+            'post_image'
+        ]
+
+
+class PostDetailSerializer(ModelSerializer):
+    class Meta:
+        model = Post
+        fields = [
+            'title',
+            'content',
+            'post_image'
+        ]

@@ -4,7 +4,15 @@ from django.contrib.auth.models import User
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post
 from .forms import PostCreateForm
-from rest_framework.generics import CreateAPIView
+from rest_framework.generics import (
+    CreateAPIView,
+    UpdateAPIView,
+    DestroyAPIView
+)
+from .serializers import (
+    PostCreateUpdateSerializer,
+    PostDetailSerializer
+)
 
 
 
@@ -67,6 +75,22 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
             return True
         return False
 
+
+class PostCreateAPIView(DestroyAPIView):
+    queryset = Post.objects.all()
+    serializer_class = PostCreateUpdateSerializer
+
+
+class PostUpdateAPIView(UpdateAPIView):
+    queryset = Post.objects.all()
+    serializer_class = PostCreateUpdateSerializer
+    lookup_field = 'pk'
+
+
+class PostDeleteAPIView(DestroyAPIView):
+    queryset = Post.objects.all()
+    serializer_class = PostDetailSerializer
+    lookup_field = 'pk'
 
 
 def about(request):
